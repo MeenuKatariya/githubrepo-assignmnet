@@ -1,0 +1,44 @@
+
+.bigDataShow{
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.defaultDataShow{
+    border: 1px solid red;
+    /* width:100px; */
+}
+.pagination{
+    border: 1px solid red;
+    display: grid;
+    width:400px;
+    grid-template-columns: repeat(6,1fr);
+    gap:5px;
+    margin-left: 1100px;
+    margin-top: 40px;
+}
+.input{
+    /* border: 1px solid red; */
+    margin: auto;
+    width:600px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.inputBox{
+    width:300px;
+    text-align: center;
+    height: 20px;
+}
+.inputBox:hover{
+    border: 1px solid black;
+}
+.button{
+    width: 60px;
+}
